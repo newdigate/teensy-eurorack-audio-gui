@@ -1,6 +1,7 @@
 # Teensy Audio System Design Tool 
+
 [teensy-eurorack-audio-gui](https://newdigate.github.io/teensy-eurorack-audio-gui)
-------------------------
+
 Use this graphical tool to design your audio project.  Easily browse the library's many features, connect objects, export to Arduino code, and quickly access details for the functions each object provides for you to control it from your Arduino sketch!
 * plus: teensy-eurorack cv inputs and outputs objects
 
