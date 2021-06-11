@@ -1,9 +1,21 @@
-# Teensy Audio System Design Tool 
+# Audio System Design Tool + extras 
 
-* [teensy-eurorack-audio-gui](https://newdigate.github.io/teensy-eurorack-audio-gui)
+Based on [Teensy Audio System Design Tool](http://www.pjrc.com/teensy/gui/index.html)
 
-Use this graphical tool to design your audio project.  Easily browse the library's many features, connect objects, export to Arduino code, and quickly access details for the functions each object provides for you to control it from your Arduino sketch!
-* plus: teensy-eurorack cv inputs and outputs objects
+Online editor: [teensy-eurorack-audio-gui](https://newdigate.github.io/teensy-eurorack-audio-gui)
+
+------------------------
+
+## audio components
+* AudioInputSharedAD7606 [teensy-audio-ad5754-ad7606](https://github.com/newdigate/teensy-audio-ad5754-ad7606) 
+* AudioOutputSharedAD5754Dual [teensy-audio-ad5754-ad7606](https://github.com/newdigate/teensy-audio-ad5754-ad7606)
+* AudioInputOutputSPI [teensy-eurorack](https://github.com/newdigate/teensy-eurorack) [*](https://github.com/newdigate/teensy-eurorack/blob/master/software/src/input_output_spi.h)
+* AudioPlayArrayResmp [teensy-variable-playback](https://github.com/newdigate/teensy-variable-playback)
+* AudioPlaySdRawResmp [teensy-variable-playback](https://github.com/newdigate/teensy-variable-playback)
+* AudioPlaySdWavResmp [teensy-variable-playback](https://github.com/newdigate/teensy-variable-playback)
+* AudioEffectCompressor [teensy-audio-compressor-effect](https://github.com/newdigate/teensy-audio-compressor-effect)
+* AudioEffectDynamics [AudioEffectDynamics](https://github.com/newdigate/AudioEffectDynamics)
+------------------------
 
 ## links
 * based on [teensy audio gui](http://www.pjrc.com/teensy/gui/index.html)
@@ -11,7 +23,4 @@ Use this graphical tool to design your audio project.  Easily browse the library
 * docs [td_libs_Audio](http://www.pjrc.com/teensy/td_libs_Audio.html)
 
 ------------------------
-
-## Supported Hardware
-* ad7608
-* 2 x ad5754
+![extras](img/extras.png)
