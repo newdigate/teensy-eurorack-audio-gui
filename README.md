@@ -12,7 +12,7 @@ Use this graphical tool to design your audio project.  Easily browse the library
 
 ------------------------
 
-##Supported Hardware
+## Supported Hardware
 * ad7608
 * 2 x ad5754
 
