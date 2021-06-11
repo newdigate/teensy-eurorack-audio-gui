@@ -136,7 +136,9 @@ RED.nodes = (function() {
 		RED.nodes.eachNode(function (node) {
 
 			if ((node._def.category === "input-function") ||
-				(node._def.category === "output-function")) {
+				(node._def.category === "output-function") ||
+				(node._def.category === "newdigate") ||
+				(node._def.category === "newdigate_legacy")) {
 				hasIO = true;
 			}
 		});
